@@ -267,11 +267,11 @@ export async function checkOut() {
       success_url:
         process.env.NODE_ENV === "development"
           ? "http://localhost:3000/payment/success"
-          : "https://tokoku.vercel.app/payment/success",
+          : "https://tokoku88.vercel.app/payment/success",
       cancel_url:
         process.env.NODE_ENV === "development"
           ? "http://localhost:3000/payment/cancel"
-          : "https://tokoku.vercel.app/payment/cancel",
+          : "https://tokoku88.vercel.app/payment/cancel",
       metadata: {
         userId: user.id,
       },
